@@ -1,0 +1,43 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nichodemus Amollo</title>
+  <desc id="desc">Data systems, useful software, measurable impact</desc>
+  <defs>
+    <linearGradient id="background" x1="40" y1="20" x2="1160" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A2B"/>
+      <stop offset="0.58" stop-color="#0B3340"/>
+      <stop offset="1" stop-color="#0F5C59"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#B7F7EF" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+
+  <circle cx="1045" cy="60" r="160" fill="#2DD4BF" fill-opacity="0.10" filter="url(#glow)"/>
+  <circle cx="1125" cy="265" r="105" fill="#67E8F9" fill-opacity="0.10" filter="url(#glow)"/>
+
+  <g opacity="0.96">
+    <path d="M957 73L1018 108L1018 178L957 213L896 178L896 108L957 73Z" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="957" cy="143" r="20" fill="#2DD4BF" fill-opacity="0.16" stroke="#5EEAD4" stroke-width="3"/>
+    <circle cx="896" cy="108" r="7" fill="#67E8F9"/>
+    <circle cx="1018" cy="108" r="7" fill="#2DD4BF"/>
+    <circle cx="1018" cy="178" r="7" fill="#67E8F9"/>
+    <circle cx="896" cy="178" r="7" fill="#2DD4BF"/>
+    <path d="M916 119L940 134M974 134L998 119M974 152L998 167M940 152L916 167" stroke="#9FF3E8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <rect x="78" y="64" width="70" height="6" rx="3" fill="url(#accent)"/>
+  <text x="78" y="138" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="-1.4">Nichodemus Amollo</text>
+  <text x="80" y="188" fill="#A7F3E8" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="0.5">DATA · RESEARCH · AI · USEFUL SOFTWARE</text>
+  <text x="80" y="238" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">Building reliable systems for real-world decisions.</text>
+  <text x="80" y="274" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Nairobi, Kenya</text>
+</svg>
